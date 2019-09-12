@@ -29,7 +29,7 @@ public class Array4 {
             Array4 siswa = new Array4();
             siswa.tampil(null);
             siswa.namanis(0);
-      
+
         
         
             

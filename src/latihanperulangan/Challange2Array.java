@@ -24,12 +24,15 @@ public class Challange2Array {
               
         ratarata = (nilai [0] + nilai [1] + nilai[2] + nilai[3] + nilai[4]) /5;
         
-        System.out.println("Nilai rata-rata anda " +ratarata);
+        
       
         if(ratarata >=80){
+              System.out.println("Nilai rata-rata anda " +ratarata);
             System.out.println("Selamat Nilai Anda Diatas Rata-Rata");
       
         }else if(ratarata <=79){
+            
+              System.out.println("Nilai rata-rata anda " +ratarata);
              System.out.println("Nilai Anda Dibawah Rata-Rata ");
     }
         
