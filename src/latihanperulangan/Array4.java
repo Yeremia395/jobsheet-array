@@ -10,8 +10,7 @@ package latihanperulangan;
  * @author Yeremia Rizky
  */
 public class Array4 {
-    public static void main(String[] args){
-    }   
+     
          int nis [][] = {{210651},{210651},{210652}};
         String nama [][] = {{"Ade"},{"Galih "},{"Baihaqi"}};
         public void tampil(String n){
@@ -24,7 +23,7 @@ public class Array4 {
         }
         }
         }
-        public static void print (String[] args){
+        public static void main (String[] args){
    
             Array4 siswa = new Array4();
             siswa.tampil(null);

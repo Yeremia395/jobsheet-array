@@ -19,12 +19,13 @@ public class Challange2Array {
         nilai [1] = 89;
         nilai [2] = 90;
         nilai [3] = 100;
-        nilai [4] = 95;
+        nilai [4] = 90;
        
               
-        ratarata = (nilai [0] + nilai [1] + nilai[2] + nilai[3] + nilai[4]) /5;
         
         
+      for (int i=0; i<nilai.length; i++) ratarata+=nilai [i];
+      ratarata/=nilai.length;
       
         if(ratarata >=80){
               System.out.println("Nilai rata-rata anda " +ratarata);
